@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6833cbb7-6d90-46bb-b6b7-ad6502d87632" name="Changes" comment="reactive with producer and consumer">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/ConsumerModuleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/RoutesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/handler/ProductHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/proxy/ProductProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/ProducerModuleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/config/RouterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/handlers/ProductHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2ptcMY8VZ1TAcd4uU25unXmzagQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "bean-invoker.agentPath": "C:\\Users\\hossa\\AppData\\Roaming\\JetBrains\\IntelliJIdea2022.1\\plugins\\bean-invoker-intellij-plugin\\lib\\bean-invoker-agent-1.0.2-with-dependencies.jar",
+    "bean-invoker.isSpringApp": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/Projects/spring-reactive-parent/consumer-module-example-1/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "9ab495a036add6ed15c20cebcbd2e90e",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\spring-reactive-parent\consumer-module-example-1\src\main\resources" />
+      <recent name="D:\Projects\spring-reactive-parent\consumer-module-example-1\src\main\java" />
+      <recent name="D:\Projects\spring-reactive-parent\producer-module-example-1\src\main\resources" />
+      <recent name="D:\Projects\spring-reactive-parent\producer-module-example-1\src\main\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -U" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerModuleApplication">
+    <configuration name="ConsumerModuleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer-module-example-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer_module_example_1.ConsumerModuleApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.consumer_module_example_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerModuleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="producer-module-example-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.producer_module_example_1.ProducerModuleApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.producer_module_example_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProducerModuleApplication" />
+      <item itemvalue="Spring Boot.ConsumerModuleApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProducerModuleApplication" />
+        <item itemvalue="Spring Boot.ConsumerModuleApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6833cbb7-6d90-46bb-b6b7-ad6502d87632" name="Changes" comment="" />
+      <created>1733588766618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733588766618</updated>
+      <workItem from="1733588768448" duration="2777000" />
+      <workItem from="1733591599954" duration="5390000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reactive with producer and consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="reactive with producer and consumer" />
+  </component>
+</project>
