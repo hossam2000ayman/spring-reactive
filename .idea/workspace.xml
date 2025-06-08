@@ -4,37 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6833cbb7-6d90-46bb-b6b7-ad6502d87632" name="Changes" comment="reactive with producer and consumer">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/ConsumerModuleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/RoutesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/handler/ProductHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/proxy/ProductProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-module-example-1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/ProducerModuleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/config/RouterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/handlers/ProductHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-module-example-1/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="6833cbb7-6d90-46bb-b6b7-ad6502d87632" name="Changes" comment="resolving">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +30,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -60,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "bean-invoker.agentPath": "C:\\Users\\hossa\\AppData\\Roaming\\JetBrains\\IntelliJIdea2022.1\\plugins\\bean-invoker-intellij-plugin\\lib\\bean-invoker-agent-1.0.2-with-dependencies.jar",
-    "bean-invoker.isSpringApp": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/Projects/spring-reactive-parent/consumer-module-example-1/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "9ab495a036add6ed15c20cebcbd2e90e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;bean-invoker.agentPath&quot;: &quot;C:\\Users\\hossa\\AppData\\Roaming\\JetBrains\\IntelliJIdea2022.1\\plugins\\bean-invoker-intellij-plugin\\lib\\bean-invoker-agent-1.0.2-with-dependencies.jar&quot;,
+    &quot;bean-invoker.isSpringApp&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/spring-reactive-parent/consumer-module-example-1/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9ab495a036add6ed15c20cebcbd2e90e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\spring-reactive-parent\consumer-module-example-1\src\main\resources" />
@@ -99,6 +87,7 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="Application" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
@@ -130,7 +119,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringReactiveE2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-reactive-e2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactivee2.SpringReactiveE2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringReactiveE3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-reactive-e3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactivee3.SpringReactiveE3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringReactiveIntroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-reactive-intro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactiveintro.SpringReactiveIntroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.SpringReactiveE2Application" />
+      <item itemvalue="Spring Boot.SpringReactiveE3Application" />
+      <item itemvalue="Spring Boot.SpringReactiveIntroApplication" />
       <item itemvalue="Spring Boot.ProducerModuleApplication" />
       <item itemvalue="Spring Boot.ConsumerModuleApplication" />
     </list>
@@ -152,6 +165,14 @@
       <workItem from="1733588768448" duration="2777000" />
       <workItem from="1733591599954" duration="5390000" />
     </task>
+    <task id="LOCAL-00001" summary="resolving">
+      <created>1749377429600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749377429600</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reactive with producer and consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="reactive with producer and consumer" />
+    <MESSAGE value="resolving" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolving" />
   </component>
 </project>
