@@ -18,7 +18,10 @@ public class ProductService {
         p2.setName("Chocolate");
         Product p3 = new Product();
         p3.setName("Soda");
-        Flux<Product> products = Flux.fromStream(List.of(p1, p2, p3).stream()).delayElements(Duration.ofSeconds(3)); //simulate something happens with each product
+        Product productWithoutName = new Product();
+        Product p4 = new Product();
+        p3.setName("Natella");
+        Flux<Product> products = Flux.fromStream(List.of(p1, p2, productWithoutName, p3, p4).stream()).delayElements(Duration.ofSeconds(5L)); //simulate something happens with each product
 
         return products;
     }

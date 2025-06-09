@@ -18,7 +18,9 @@ public class ProductHandler {
 
     public Mono<ServerResponse> handleAllProductFromConsumer(ServerRequest request) {
         //        request -> request body , headers, path variables, request params
-        return ServerResponse.ok().contentType(MediaType.TEXT_EVENT_STREAM).body(productService.getAllProduct(), Product.class);
+        return ServerResponse.ok()
+                .contentType(MediaType.TEXT_EVENT_STREAM)
+                .body(productService.getAllProduct(), Product.class);
     }
 
 

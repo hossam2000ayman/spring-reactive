@@ -5,9 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6833cbb7-6d90-46bb-b6b7-ad6502d87632" name="Changes" comment="resolving">
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/ConsumerModuleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/RoutesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/handler/ProductHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/proxy/ProductProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/consumer-module-example-1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/java/com/example/producer_module_example_1/ProducerModuleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/java/com/example/producer_module_example_1/config/RouterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/java/com/example/producer_module_example_1/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/java/com/example/producer_module_example_1/handlers/ProductHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/java/com/example/producer_module_example_1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/java/com/example/producer_module_example_1/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-reactive-e4/producer-module-example-1/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/ConsumerModuleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/RoutesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/handler/ProductHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/proxy/ProductProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/java/com/example/consumer_module_example_1/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-module-example-1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/ProducerModuleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/config/RouterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/handlers/ProductHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/java/com/example/producer_module_example_1/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-module-example-1/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +86,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -67,10 +104,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9ab495a036add6ed15c20cebcbd2e90e&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;58477775a2fdf374f5be4a62c48bf237&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\spring-reactive-parent\consumer-module-example-1\src\main\resources" />
@@ -149,8 +189,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProducerModuleApplication" />
         <item itemvalue="Spring Boot.ConsumerModuleApplication" />
+        <item itemvalue="Spring Boot.ProducerModuleApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +204,9 @@
       <updated>1733588766618</updated>
       <workItem from="1733588768448" duration="2777000" />
       <workItem from="1733591599954" duration="5390000" />
+      <workItem from="1749418200369" duration="2424000" />
+      <workItem from="1749461503120" duration="159000" />
+      <workItem from="1749461740094" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="resolving">
       <created>1749377429600</created>
@@ -172,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749377429600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="resolving">
+      <created>1749380784210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749380784210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +240,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reactive with producer and consumer" />
     <MESSAGE value="resolving" />
     <option name="LAST_COMMIT_MESSAGE" value="resolving" />
