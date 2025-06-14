@@ -145,6 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringReactiveE6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-reactive-e6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactivee6.SpringReactiveE6Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringReactiveIntroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-reactive-intro" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactiveintro.SpringReactiveIntroApplication" />
@@ -153,6 +160,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.SpringReactiveE6Application" />
       <item itemvalue="Spring Boot.SpringReactiveE5Application" />
       <item itemvalue="Spring Boot.SpringReactiveE2Application" />
       <item itemvalue="Spring Boot.SpringReactiveE3Application" />

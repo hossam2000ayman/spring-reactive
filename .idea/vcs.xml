@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-reactive-e5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-reactive-e6" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-reactive-intro" vcs="Git" />
   </component>
 </project>
