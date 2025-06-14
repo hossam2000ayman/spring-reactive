@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6833cbb7-6d90-46bb-b6b7-ad6502d87632" name="Changes" comment="complete lesson 4">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-reactive-e5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -135,6 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringReactiveE5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-reactive-e5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactivee5.SpringReactiveE5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringReactiveIntroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-reactive-intro" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springreactiveintro.SpringReactiveIntroApplication" />
@@ -143,6 +153,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.SpringReactiveE5Application" />
       <item itemvalue="Spring Boot.SpringReactiveE2Application" />
       <item itemvalue="Spring Boot.SpringReactiveE3Application" />
       <item itemvalue="Spring Boot.SpringReactiveIntroApplication" />
@@ -170,6 +181,7 @@
       <workItem from="1749461503120" duration="159000" />
       <workItem from="1749461740094" duration="2744000" />
       <workItem from="1749491145478" duration="1353000" />
+      <workItem from="1749801429462" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="resolving">
       <created>1749377429600</created>
